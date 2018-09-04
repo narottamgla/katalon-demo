@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTest1" time="47" tests="2" failures="0" errors="0">
+   <testsuite name="LoginTest1" tests="2" failures="0" errors="0" time="47" timestamp="2018-09-04 22:17:31" hostname="narot - LAPTOP-A054LH39" id="Test Suites/LoginTest1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\narot\\Katalon Studio\\katalan_demo\\Reports\\LoginTest1\\20180904_221730"/>
+         <property name="logFiles" value="C:\\Users\\narot\\Katalon Studio\\katalan_demo\\Reports\\LoginTest1\\20180904_221730\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="narot - LAPTOP-A054LH39"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="a88b634c1673d75663e2258b4c8c8ec5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginTest" classname="Test Cases/LoginTest" status="PASSED">
+         <system-out><![CDATA[2018-09-04 22:17:32 - [TEST_CASE][PASSED] - Test Cases/LoginTest: Test Cases/LoginTest
+
+2018-09-04 22:17:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-04 22:17:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-04 22:17:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.nlbootcamps.com/' successfully
+
+2018-09-04 22:17:40 - [MESSAGE][PASSED] - Navigate to 'http://www.nlbootcamps.com/' successfully
+
+2018-09-04 22:17:40 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'NLBC' and expected object 'NLBC' are equal
+
+2018-09-04 22:17:40 - [MESSAGE][PASSED] - Current window's title is: 'NLBC'
+
+2018-09-04 22:17:40 - [MESSAGE][PASSED] - Actual object 'NLBC' and expected object 'NLBC' are equal
+
+2018-09-04 22:17:40 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoginPage/login_menu' is clickable
+
+2018-09-04 22:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/login_menu' is clickable
+
+2018-09-04 22:17:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoginPage/login_menu' is present
+
+2018-09-04 22:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/login_menu' is present
+
+2018-09-04 22:17:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginPage/login_menu' is visible
+
+2018-09-04 22:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/login_menu' is visible
+
+2018-09-04 22:17:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/login_menu' is clicked on
+
+2018-09-04 22:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/login_menu' is clicked on
+
+2018-09-04 22:17:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/login_page_header' is visible
+
+2018-09-04 22:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/login_page_header' is visible
+
+2018-09-04 22:17:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginPage/login_page_header' are matched.
+
+2018-09-04 22:17:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginPage/login_page_header' are matched.
+
+2018-09-04 22:17:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/input_username' is visible
+
+2018-09-04 22:17:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/input_username' is visible
+
+2018-09-04 22:17:41 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoginPage/input_username'
+
+2018-09-04 22:17:41 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoginPage/input_username'
+
+2018-09-04 22:17:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/input_password' is visible
+
+2018-09-04 22:17:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/input_password' is visible
+
+2018-09-04 22:17:41 - [TEST_STEP][PASSED] - setText: Text 'testp' is set on object 'Object Repository/LoginPage/input_password'
+
+2018-09-04 22:17:41 - [MESSAGE][PASSED] - Text 'testp' is set on object 'Object Repository/LoginPage/input_password'
+
+2018-09-04 22:17:41 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoginPage/input_btn submit-btn' is clickable
+
+2018-09-04 22:17:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/input_btn submit-btn' is clickable
+
+2018-09-04 22:17:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/input_btn submit-btn' is clicked on
+
+2018-09-04 22:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/input_btn submit-btn' is clicked on
+
+2018-09-04 22:17:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 22:17:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginTest" classname="Test Cases/LoginTest" status="PASSED">
+         <system-out><![CDATA[2018-09-04 22:17:54 - [TEST_CASE][PASSED] - Test Cases/LoginTest: Test Cases/LoginTest
+
+2018-09-04 22:17:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-04 22:17:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-04 22:17:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.nlbootcamps.com/' successfully
+
+2018-09-04 22:17:59 - [MESSAGE][PASSED] - Navigate to 'http://www.nlbootcamps.com/' successfully
+
+2018-09-04 22:17:59 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'NLBC' and expected object 'NLBC' are equal
+
+2018-09-04 22:17:59 - [MESSAGE][PASSED] - Current window's title is: 'NLBC'
+
+2018-09-04 22:17:59 - [MESSAGE][PASSED] - Actual object 'NLBC' and expected object 'NLBC' are equal
+
+2018-09-04 22:17:59 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoginPage/login_menu' is clickable
+
+2018-09-04 22:17:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/login_menu' is clickable
+
+2018-09-04 22:17:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoginPage/login_menu' is present
+
+2018-09-04 22:17:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/login_menu' is present
+
+2018-09-04 22:17:59 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginPage/login_menu' is visible
+
+2018-09-04 22:17:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/login_menu' is visible
+
+2018-09-04 22:17:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/login_menu' is clicked on
+
+2018-09-04 22:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/login_menu' is clicked on
+
+2018-09-04 22:17:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/login_page_header' is visible
+
+2018-09-04 22:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/login_page_header' is visible
+
+2018-09-04 22:18:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoginPage/login_page_header' are matched.
+
+2018-09-04 22:18:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginPage/login_page_header' are matched.
+
+2018-09-04 22:18:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/input_username' is visible
+
+2018-09-04 22:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/input_username' is visible
+
+2018-09-04 22:18:00 - [TEST_STEP][PASSED] - setText: Text 'testu' is set on object 'Object Repository/LoginPage/input_username'
+
+2018-09-04 22:18:00 - [MESSAGE][PASSED] - Text 'testu' is set on object 'Object Repository/LoginPage/input_username'
+
+2018-09-04 22:18:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/input_password' is visible
+
+2018-09-04 22:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/input_password' is visible
+
+2018-09-04 22:18:00 - [TEST_STEP][PASSED] - setText: Text 'testp2' is set on object 'Object Repository/LoginPage/input_password'
+
+2018-09-04 22:18:00 - [MESSAGE][PASSED] - Text 'testp2' is set on object 'Object Repository/LoginPage/input_password'
+
+2018-09-04 22:18:00 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoginPage/input_btn submit-btn' is clickable
+
+2018-09-04 22:18:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/input_btn submit-btn' is clickable
+
+2018-09-04 22:18:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/input_btn submit-btn' is clicked on
+
+2018-09-04 22:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/input_btn submit-btn' is clicked on
+
+2018-09-04 22:18:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 22:18:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-04 22:17:31 - [TEST_SUITE][PASSED] - LoginTest1: Test Cases/LoginTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

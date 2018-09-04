@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTest1" time="0" tests="0" failures="0" errors="2">
+   <testsuite name="LoginTest1" tests="0" failures="0" errors="2" time="0" timestamp="2018-09-04 07:40:25" hostname="narot - LAPTOP-A054LH39" id="Test Suites/LoginTest1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\narot\\Katalon Studio\\katalan_demo\\Reports\\LoginTest1\\20180904_074022"/>
+         <property name="logFiles" value="C:\\Users\\narot\\Katalon Studio\\katalan_demo\\Reports\\LoginTest1\\20180904_074022\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="narot - LAPTOP-A054LH39"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/LoginTest" classname="Test Cases/LoginTest" status="ERROR">
+         <error type="ERROR" message="Test Cases/LoginTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/narot/Katalon%20Studio/katalan_demo/Scripts/LoginTest/Script1535276075630.groovy: 22: unable to resolve class InternalData 
+ @ line 22, column 14.
+   InternalData data = findTestData(&quot;login_data&quot;)
+                ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-09-04 07:40:25 - [TEST_CASE][ERROR] - Test Cases/LoginTest: Test Cases/LoginTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/narot/Katalon%20Studio/katalan_demo/Scripts/LoginTest/Script1535276075630.groovy: 22: unable to resolve class InternalData 
+ @ line 22, column 14.
+   InternalData data = findTestData("login_data")
+                ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-09-04 07:40:25 - [TEST_CASE][ERROR] - Test Cases/LoginTest: Test Cases/LoginTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/narot/Katalon%20Studio/katalan_demo/Scripts/LoginTest/Script1535276075630.groovy: 22: unable to resolve class InternalData 
+ @ line 22, column 14.
+   InternalData data = findTestData("login_data")
+                ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginTest" classname="Test Cases/LoginTest" status="ERROR">
+         <error type="ERROR" message="Test Cases/LoginTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/narot/Katalon%20Studio/katalan_demo/Scripts/LoginTest/Script1535276075630.groovy: 22: unable to resolve class InternalData 
+ @ line 22, column 14.
+   InternalData data = findTestData(&quot;login_data&quot;)
+                ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-09-04 07:40:25 - [TEST_CASE][ERROR] - Test Cases/LoginTest: Test Cases/LoginTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/narot/Katalon%20Studio/katalan_demo/Scripts/LoginTest/Script1535276075630.groovy: 22: unable to resolve class InternalData 
+ @ line 22, column 14.
+   InternalData data = findTestData("login_data")
+                ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-09-04 07:40:25 - [TEST_CASE][ERROR] - Test Cases/LoginTest: Test Cases/LoginTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/narot/Katalon%20Studio/katalan_demo/Scripts/LoginTest/Script1535276075630.groovy: 22: unable to resolve class InternalData 
+ @ line 22, column 14.
+   InternalData data = findTestData("login_data")
+                ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-04 07:40:25 - [TEST_SUITE][ERROR] - LoginTest1: Test Cases/LoginTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/narot/Katalon%20Studio/katalan_demo/Scripts/LoginTest/Script1535276075630.groovy: 22: unable to resolve class InternalData 
+ @ line 22, column 14.
+   InternalData data = findTestData("login_data")
+                ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-09-04 07:40:25 - [TEST_SUITE][ERROR] - LoginTest1: Test Cases/LoginTest FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/narot/Katalon%20Studio/katalan_demo/Scripts/LoginTest/Script1535276075630.groovy: 22: unable to resolve class InternalData 
+ @ line 22, column 14.
+   InternalData data = findTestData("login_data")
+                ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

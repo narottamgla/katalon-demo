@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTest1,,,2018-09-04 07:40:25,2018-09-04 07:40:25,0.756s,ERROR
+,,,,,,
+Test Cases/LoginTest,,,2018-09-04 07:40:25,2018-09-04 07:40:25,0.214s,ERROR
+,,,,,,
+Test Cases/LoginTest,,,2018-09-04 07:40:25,2018-09-04 07:40:25,0.119s,ERROR
