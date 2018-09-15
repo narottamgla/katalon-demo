@@ -8,7 +8,7 @@ Katalon demo project for selenium web
 
 ## Setup:
 * Install [Java 8](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html)
-* Download Katalon [Maven](https://www.katalon.com//)
+* Download Katalon [Katalon](https://www.katalon.com//)
 
 ## Run the tests
 * Install and start katalon
